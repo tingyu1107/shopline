@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head p{
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.title {
+    
+    background-color: #cc9494;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    
+    
+}
+
+.title h1{
+    padding: 10px;
+    
+}
+
+.title p{
+    padding: 10px;
+    
+}
+.up{
+    display: flex;
+    width: 1000px;
+    margin: auto;
+}
+
+.null{
+    background-color: #96e3f3;
+    height: 100px;
+}
+.introduce{
+    background-color: cadetblue;
+    
+    text-align: center;
+    padding: 30px;
+}
+
+.introduce h3{
+    padding: 10px;
+    font-size: 36px;
+}
+.introduce p{
+    padding: 10px;
+}
+.service{
+    width: 1100px;
+    margin: auto;
+}
+.wrap{
+    display: flex;
+    
+}
+.wrap:nth-child(even){
+    flex-direction: row-reverse;
+}
+.wrap .pic{
+    width: 440px;
+    margin: 20px;
+    padding: 10px;
+}
+.wrap .pic img{
+    width: 100%;
+}
+.wrap text{
+    width: 440px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.more{
+    background-color: #cc9494;
+    text-align: center;
+    padding: 10px;
+}
+.more .wrap{
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.more .item{
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+}
+.hot{
+    width: 1000px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.hot .wrap{
+    
+    display: flex;
+}
+.over{
+    height: 200px;
+    background-color: bisque;
+}
+.bottom{
+    background-color: rgb(84, 84, 175);
+}
+.bottom .wrap{
+    width: 960px;
+    margin: auto;
+}
+.bottom .wrap .first{
+    width: 960px;
+    display: flex;
+    margin: auto;
+    border: 1px solid white;
+    background-color: #cc9494;
+}
+.bottom .wrap .first p{
+    padding: 30px 10px;
+    
+}
+.bottom .wrap .second{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom .wrap .second .item{
+    width: 300px;
+}
